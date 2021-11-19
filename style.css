@@ -1,0 +1,43 @@
+body {
+    background-color: #FDE26C;
+    font-family: 'Open Sans', sans-serif;
+    color: #F79000;
+    padding: 0 5%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 5px #FFD7BC;
+    color: #FFF7E4;
+    align-self: center;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text-container {
+    display: flex;
+}
+
+.image {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.bio-text {
+    width: 50%;
+}
+
+.list-container{
+    display: flex;
+    background-color: #FFF7E4;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.website-list {
+    list-style-type: none;
+}
