@@ -41,3 +41,13 @@ h1 {
 .website-list {
     list-style-type: none;
 }
+
+.gifs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif {
+    width: 300px;
+    height: 250px;
+}
