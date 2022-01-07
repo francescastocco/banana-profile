@@ -1,8 +1,8 @@
 
 
 const apiKey = "kIe2HWLwcnMkJqXU5Er7HqZfdcBeysYe";
-const urls = { bananaUrl: `http://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=10&q=banana`,
-    boringUrl: `http://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=10`};
+const urls = { bananaUrl: `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=10&q=banana`,
+    boringUrl: `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=10`};
 let currentUrl = urls.bananaUrl;
 async function getGifs(url) {
     const topTenGifs = await fetch(url)
